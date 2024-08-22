@@ -11,9 +11,12 @@
 
 body {
     padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
 }
 
-.header {
+header {
     padding-top: 5px;
     display: flex;
     justify-content: space-between;
@@ -29,6 +32,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
 }
 
 .content-one {
@@ -63,6 +70,14 @@ a {
 
 }
 
+.images-section-two {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .paragraph-section-two {
     display: flex;
     text-align: center;
@@ -84,4 +99,31 @@ a {
 h4 {
     display: flex;
     justify-content: flex-end;
+}
+
+.content-four {
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    color: white;
+    background-color: blue;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.h4-section-four {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
